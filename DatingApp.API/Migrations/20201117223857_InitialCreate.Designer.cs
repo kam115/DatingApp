@@ -17,7 +17,7 @@ namespace DatingApp.API.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("DatingApp.API.Models.Value", b =>
+            modelBuilder.Entity("DatingApp.API.Models.Values", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
